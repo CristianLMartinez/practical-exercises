@@ -26,8 +26,8 @@ const TableMenu = () => {
   });
 
   return (
-    <table>
-      <thead>
+    <table className="container mx-auto p-2 border">
+      <thead className="px-4 py-2">
         <th>id</th>
         <th>title</th>
         <th>description</th>
